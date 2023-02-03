@@ -8,7 +8,7 @@ import { Navbar, About, Footer, Header, Work, Testimonial, Skills } from './cont
 const App = () => {
   return (
     <div className='app'>
-      <Navbar />
+      <Navbar /> 
       <Header />
       <About />
       <Work />

@@ -1,0 +1,69 @@
+#about {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 4rem 2rem;
+}
+.app__about-title span {
+ color: blue;
+}
+
+.app__about-title {
+    margin: 2rem 0rem;
+}
+.app__about-services {
+  
+    div {
+        max-width: 200px;
+        text-align: left;
+        margin: 10px 20px;
+        border-radius: 10px;
+        img{
+            width: 200px;
+            border-radius: 10px;
+        }
+        h3 {
+            margin: 1rem 0rem;
+        }
+    }
+    
+}
+
+
+
+// About new css 
+
+.app__about {
+    flex:1;
+    width: 100%;
+    flex-direction: column;
+}
+.app__profiles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.app__profile-item {
+    width: 190px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column  ;
+    margin: 1rem;
+    img { width: 100%;
+    height: 170px;
+border-radius: 15px;
+object-fit: cover;}
+
+@media screen and (min-width :2000px) {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+        height: 320pxs;
+    }
+}
+
+}
